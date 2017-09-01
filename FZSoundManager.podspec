@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BLCloudStoreSoundManager"
-  s.version      = "5"
-  s.summary      = "BLCloudStoreSoundManager."
+  s.name         = "FZSoundManager"
+  s.version      = "0.0.1"
+  s.summary      = "FZSoundManager."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is BLCloudStoreSoundManager
+                    this is FZSoundManager
                    DESC
 
-  s.homepage     = "https://gitlab.bl.com/iOS_Tools/BLCloudStoreSoundManager"
+  s.homepage     = "https://github.com/iHamburg/FZSoundManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
+  s.author             = { "ForestZhang" => "tominfrankfurt@gmail.com" }
   # Or just: s.author    = "CasaTaloyum"
   # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
   # s.social_media_url   = "http://twitter.com/CasaTaloyum"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://gitlab.bl.com/iOS_Tools/BLCloudStoreSoundManager.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/iHamburg/FZSoundManager.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "BLCategoryCloudStoreSoundManager"
+  # s.dependency "BLCategoryCloudStoreSoundManager"
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"

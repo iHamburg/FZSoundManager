@@ -1,4 +1,3 @@
-
 // !$*UTF8*$!
 {
 	archiveVersion = 1;
@@ -14,7 +13,6 @@
 		1C9499791F43E90B00037E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9499771F43E90B00037E6D /* Main.storyboard */; };
 		1C94997B1F43E90B00037E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C94997A1F43E90B00037E6D /* Assets.xcassets */; };
 		1C94997E1F43E90B00037E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C94997C1F43E90B00037E6D /* LaunchScreen.storyboard */; };
-		1CD7946F1F43F20900C06481 /* Target_CloudStoreSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */; };
 		1CD794721F43F26A00C06481 /* BLSMessageSoundPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */; };
 		E0757D1E741D2D3FB3DC0637 /* libPods-BLCloudStoreSoundManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63F2A70A09A5615DD3B59AB /* libPods-BLCloudStoreSoundManager.a */; };
 /* End PBXBuildFile section */
@@ -30,8 +28,6 @@
 		1C94997A1F43E90B00037E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C94997D1F43E90B00037E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C94997F1F43E90B00037E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CD7946D1F43F20900C06481 /* Target_CloudStoreSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CloudStoreSoundManager.h; sourceTree = "<group>"; };
-		1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CloudStoreSoundManager.m; sourceTree = "<group>"; };
 		1CD794701F43F26A00C06481 /* BLSMessageSoundPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSMessageSoundPlayManager.h; sourceTree = "<group>"; };
 		1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSMessageSoundPlayManager.m; sourceTree = "<group>"; };
 		30860B2CC525C10F6D7FE85D /* Pods-BLCloudStoreSoundManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLCloudStoreSoundManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLCloudStoreSoundManager/Pods-BLCloudStoreSoundManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,20 +93,10 @@
 		1CD7946B1F43F1BA00C06481 /* BLCloudStoreSoundManager */ = {
 			isa = PBXGroup;
 			children = (
-				1CD7946C1F43F1D000C06481 /* Targets */,
 				1CD794701F43F26A00C06481 /* BLSMessageSoundPlayManager.h */,
 				1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */,
 			);
 			path = BLCloudStoreSoundManager;
-			sourceTree = "<group>";
-		};
-		1CD7946C1F43F1D000C06481 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				1CD7946D1F43F20900C06481 /* Target_CloudStoreSoundManager.h */,
-				1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */,
-			);
-			path = Targets;
 			sourceTree = "<group>";
 		};
 		581EA7DB842B148BE3D11B89 /* Pods */ = {
@@ -255,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD7946F1F43F20900C06481 /* Target_CloudStoreSoundManager.m in Sources */,
 				1C9499761F43E90B00037E6D /* ViewController.m in Sources */,
 				1C9499731F43E90B00037E6D /* AppDelegate.m in Sources */,
 				1C9499701F43E90B00037E6D /* main.m in Sources */,

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BLCategoryCloudStoreSoundManager/BLMediator+BLCloudStoreSoundManager.h>
 
 @interface BLSMessageSoundPlayManager : NSObject
 + (instancetype)sharedInstance;
@@ -15,6 +14,6 @@
 /*
  * 根据type播放语音文件
  */
--(void)playMessageSoundWithType:(BLSSoundPlayType)type;
+-(void)playMessageSoundWithType:(NSInteger)type;
 
 @end

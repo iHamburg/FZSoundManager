@@ -37,13 +37,13 @@
     return self;
 }
 
--(void)playMessageSoundWithType:(BLSSoundPlayType)type{
+-(void)playMessageSoundWithType:(NSInteger)type{
     
     NSLog(@"BLCloudStoreSoundManager is playing");
     
     NSData *soundData;
     switch (type) {
-        case BLSSoundPlayIMMassage:
+        case 0:
             soundData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"消息提示音.m4a" ofType:nil]];
             break;
             
