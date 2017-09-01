@@ -1,0 +1,15 @@
+PODS:
+  - BLCategoryCloudStoreSoundManager (8):
+    - BLMediator
+  - BLMediator (11)
+
+DEPENDENCIES:
+  - BLCategoryCloudStoreSoundManager
+
+SPEC CHECKSUMS:
+  BLCategoryCloudStoreSoundManager: 6bb7191925bfe1df9290bacb4f11baaaac74a651
+  BLMediator: 9507d9e7282390b69f604ce4590204a5dbe88347
+
+PODFILE CHECKSUM: a13a97d2531b1c4fa4da3d2c73ca25dcf4d23a64
+
+COCOAPODS: 1.0.0

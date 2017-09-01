@@ -1,0 +1,426 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C9499701F43E90B00037E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94996F1F43E90B00037E6D /* main.m */; };
+		1C9499731F43E90B00037E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9499721F43E90B00037E6D /* AppDelegate.m */; };
+		1C9499761F43E90B00037E6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9499751F43E90B00037E6D /* ViewController.m */; };
+		1C9499791F43E90B00037E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9499771F43E90B00037E6D /* Main.storyboard */; };
+		1C94997B1F43E90B00037E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C94997A1F43E90B00037E6D /* Assets.xcassets */; };
+		1C94997E1F43E90B00037E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C94997C1F43E90B00037E6D /* LaunchScreen.storyboard */; };
+		1CD7946F1F43F20900C06481 /* Target_CloudStoreSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */; };
+		1CD794721F43F26A00C06481 /* BLSMessageSoundPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */; };
+		E0757D1E741D2D3FB3DC0637 /* libPods-BLCloudStoreSoundManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63F2A70A09A5615DD3B59AB /* libPods-BLCloudStoreSoundManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C94996B1F43E90B00037E6D /* BLCloudStoreSoundManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLCloudStoreSoundManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C94996F1F43E90B00037E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C9499711F43E90B00037E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C9499721F43E90B00037E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C9499741F43E90B00037E6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C9499751F43E90B00037E6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C9499781F43E90B00037E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C94997A1F43E90B00037E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C94997D1F43E90B00037E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C94997F1F43E90B00037E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD7946D1F43F20900C06481 /* Target_CloudStoreSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CloudStoreSoundManager.h; sourceTree = "<group>"; };
+		1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CloudStoreSoundManager.m; sourceTree = "<group>"; };
+		1CD794701F43F26A00C06481 /* BLSMessageSoundPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSMessageSoundPlayManager.h; sourceTree = "<group>"; };
+		1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSMessageSoundPlayManager.m; sourceTree = "<group>"; };
+		30860B2CC525C10F6D7FE85D /* Pods-BLCloudStoreSoundManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLCloudStoreSoundManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLCloudStoreSoundManager/Pods-BLCloudStoreSoundManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3EA050FAE03CA01C4FC1C5 /* Pods-BLCloudStoreSoundManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLCloudStoreSoundManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLCloudStoreSoundManager/Pods-BLCloudStoreSoundManager.release.xcconfig"; sourceTree = "<group>"; };
+		B63F2A70A09A5615DD3B59AB /* libPods-BLCloudStoreSoundManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLCloudStoreSoundManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9499681F43E90B00037E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0757D1E741D2D3FB3DC0637 /* libPods-BLCloudStoreSoundManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C9499621F43E90B00037E6D = {
+			isa = PBXGroup;
+			children = (
+				1C94996D1F43E90B00037E6D /* BLCloudStoreSoundManager */,
+				1C94996C1F43E90B00037E6D /* Products */,
+				581EA7DB842B148BE3D11B89 /* Pods */,
+				DFFF6E783BF5055812937AC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C94996C1F43E90B00037E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C94996B1F43E90B00037E6D /* BLCloudStoreSoundManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C94996D1F43E90B00037E6D /* BLCloudStoreSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				1CD7946B1F43F1BA00C06481 /* BLCloudStoreSoundManager */,
+				1C9499711F43E90B00037E6D /* AppDelegate.h */,
+				1C9499721F43E90B00037E6D /* AppDelegate.m */,
+				1C9499741F43E90B00037E6D /* ViewController.h */,
+				1C9499751F43E90B00037E6D /* ViewController.m */,
+				1C9499771F43E90B00037E6D /* Main.storyboard */,
+				1C94997A1F43E90B00037E6D /* Assets.xcassets */,
+				1C94997C1F43E90B00037E6D /* LaunchScreen.storyboard */,
+				1C94997F1F43E90B00037E6D /* Info.plist */,
+				1C94996E1F43E90B00037E6D /* Supporting Files */,
+			);
+			path = BLCloudStoreSoundManager;
+			sourceTree = "<group>";
+		};
+		1C94996E1F43E90B00037E6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C94996F1F43E90B00037E6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CD7946B1F43F1BA00C06481 /* BLCloudStoreSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				1CD7946C1F43F1D000C06481 /* Targets */,
+				1CD794701F43F26A00C06481 /* BLSMessageSoundPlayManager.h */,
+				1CD794711F43F26A00C06481 /* BLSMessageSoundPlayManager.m */,
+			);
+			path = BLCloudStoreSoundManager;
+			sourceTree = "<group>";
+		};
+		1CD7946C1F43F1D000C06481 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				1CD7946D1F43F20900C06481 /* Target_CloudStoreSoundManager.h */,
+				1CD7946E1F43F20900C06481 /* Target_CloudStoreSoundManager.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		581EA7DB842B148BE3D11B89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30860B2CC525C10F6D7FE85D /* Pods-BLCloudStoreSoundManager.debug.xcconfig */,
+				5C3EA050FAE03CA01C4FC1C5 /* Pods-BLCloudStoreSoundManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFFF6E783BF5055812937AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63F2A70A09A5615DD3B59AB /* libPods-BLCloudStoreSoundManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C94996A1F43E90B00037E6D /* BLCloudStoreSoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9499821F43E90B00037E6D /* Build configuration list for PBXNativeTarget "BLCloudStoreSoundManager" */;
+			buildPhases = (
+				DD2907AEA27249EDA88FEE12 /* [CP] Check Pods Manifest.lock */,
+				1C9499671F43E90B00037E6D /* Sources */,
+				1C9499681F43E90B00037E6D /* Frameworks */,
+				1C9499691F43E90B00037E6D /* Resources */,
+				C3AB4AF05E9518FA1EFFFFBF /* [CP] Embed Pods Frameworks */,
+				64CB0B4E406C4C469ABEDD2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLCloudStoreSoundManager;
+			productName = BLCloudStoreSoundManager;
+			productReference = 1C94996B1F43E90B00037E6D /* BLCloudStoreSoundManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C9499631F43E90B00037E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BLS;
+				TargetAttributes = {
+					1C94996A1F43E90B00037E6D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C9499661F43E90B00037E6D /* Build configuration list for PBXProject "BLCloudStoreSoundManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C9499621F43E90B00037E6D;
+			productRefGroup = 1C94996C1F43E90B00037E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C94996A1F43E90B00037E6D /* BLCloudStoreSoundManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C9499691F43E90B00037E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C94997E1F43E90B00037E6D /* LaunchScreen.storyboard in Resources */,
+				1C94997B1F43E90B00037E6D /* Assets.xcassets in Resources */,
+				1C9499791F43E90B00037E6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64CB0B4E406C4C469ABEDD2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLCloudStoreSoundManager/Pods-BLCloudStoreSoundManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AB4AF05E9518FA1EFFFFBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLCloudStoreSoundManager/Pods-BLCloudStoreSoundManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2907AEA27249EDA88FEE12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLCloudStoreSoundManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9499671F43E90B00037E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD7946F1F43F20900C06481 /* Target_CloudStoreSoundManager.m in Sources */,
+				1C9499761F43E90B00037E6D /* ViewController.m in Sources */,
+				1C9499731F43E90B00037E6D /* AppDelegate.m in Sources */,
+				1C9499701F43E90B00037E6D /* main.m in Sources */,
+				1CD794721F43F26A00C06481 /* BLSMessageSoundPlayManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C9499771F43E90B00037E6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C9499781F43E90B00037E6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C94997C1F43E90B00037E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C94997D1F43E90B00037E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C9499801F43E90B00037E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C9499811F43E90B00037E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C9499831F43E90B00037E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30860B2CC525C10F6D7FE85D /* Pods-BLCloudStoreSoundManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLCloudStoreSoundManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.sdk.BLCloudStoreSoundManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C9499841F43E90B00037E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3EA050FAE03CA01C4FC1C5 /* Pods-BLCloudStoreSoundManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLCloudStoreSoundManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.sdk.BLCloudStoreSoundManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9499661F43E90B00037E6D /* Build configuration list for PBXProject "BLCloudStoreSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9499801F43E90B00037E6D /* Debug */,
+				1C9499811F43E90B00037E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C9499821F43E90B00037E6D /* Build configuration list for PBXNativeTarget "BLCloudStoreSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9499831F43E90B00037E6D /* Debug */,
+				1C9499841F43E90B00037E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C9499631F43E90B00037E6D /* Project object */;
+}
